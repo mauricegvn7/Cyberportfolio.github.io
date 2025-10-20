@@ -21,7 +21,7 @@ To gain expertise in securing cloud environments and supporting security operati
 
 📫 Get in Touch:
 - Email: [Mauricegvn7@yahoo.com](mailto:Mauricegvn7@yahoo.com)
-- LinkedIn: [Add your LinkedIn URL here]
+- LinkedIn: [www.linkedin.com/in/shanard-govan-81185a13b]
 
 ⚡ Fun fact:
 I love breaking things just to figure out how to secure them again 😄
