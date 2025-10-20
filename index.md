@@ -1,123 +1,121 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shanard Govan | SOC & Cloud Security</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0d1117;
+      color: #c9d1d9;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    h1 {
+      color: #58a6ff;
+      margin-bottom: 0.3rem;
+    }
+    h2 {
+      color: #8b949e;
+      font-weight: 400;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .skills, .tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .tag {
+      background-color: #161b22;
+      padding: 8px 14px;
+      border-radius: 12px;
+      border: 1px solid #30363d;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid #30363d;
+      font-size: 0.9rem;
+      color: #8b949e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shanard Govan</h1>
+    <h2>Aspiring SOC Analyst & Cloud Security Enthusiast</h2>
+  </header>
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+  <main>
+    <section>
+      <h3>🔍 About Me</h3>
+      <p>
+        Passionate about cybersecurity and cloud defense. Currently building hands-on skills in
+        <strong>SOC operations, SIEM tools, and cloud security (AWS & Azure)</strong>.
+        Focused on threat detection, incident response, and securing modern cloud environments.
+      </p>
+    </section>
 
-[Link to another page](./another-page.html).
+    <section>
+      <h3>🧠 Skills & Focus Areas</h3>
+      <div class="skills">
+        <span class="tag">Threat Detection</span>
+        <span class="tag">Incident Response</span>
+        <span class="tag">SIEM (Splunk, Sentinel)</span>
+        <span class="tag">AWS Security</span>
+        <span class="tag">Azure Security</span>
+        <span class="tag">Python Automation</span>
+      </div>
+    </section>
 
-There should be whitespace between paragraphs.
+    <section>
+      <h3>⚙️ Tools I Use</h3>
+      <div class="tools">
+        <span class="tag">Wireshark</span>
+        <span class="tag">Kali Linux</span>
+        <span class="tag">Burp Suite</span>
+        <span class="tag">Git & GitHub</span>
+        <span class="tag">VS Code</span>
+      </div>
+    </section>
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+    <section>
+      <h3>📂 Featured Projects</h3>
+      <ul>
+        <li><a href="#">Home SOC Lab – Simulating Real-World Threats</a></li>
+        <li><a href="#">Cloud Security Automation with Python</a></li>
+        <li><a href="#">Incident Response Playbook</a></li>
+      </ul>
+    </section>
 
-# Header 1
+    <section>
+      <h3>📫 Get in Touch</h3>
+      <p>Email: <a href="mailto:Mauricegvn7@yahoo.com">Mauricegvn7@yahoo.com</a></p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/shanardgovan</a></p>
+    </section>
+  </main>
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+  <footer>
+    © 2025 Shanard Govan — Built with ❤️ for cybersecurity learning.
+  </footer>
+</body>
+</html>
